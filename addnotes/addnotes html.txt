@@ -1,0 +1,36 @@
+<button onclick="goBack()">Go Back</button>
+
+<header>
+
+
+<h2></a>ADD NOTES</h2>
+
+</header>
+<div id="myDIV" class="header">
+<div class="row" >
+
+  <div class="column" style="background-color:#aaa;">
+   
+    
+  
+    <textarea rows="20" cols="50"  id="myInput" placeholder="Enter your Notes Here...">
+</textarea>
+
+    <br>
+    <button>
+     <span onclick="newElement()" class="addBtn">Add To Do</span>
+     </button>
+   
+        
+        
+        
+  </div>
+  </div>
+  <div style = "border-style: double;">
+  
+ <ul class="connected list no2">
+   <ul id="myUL">
+   
+      </ul>
+    </div>
+  

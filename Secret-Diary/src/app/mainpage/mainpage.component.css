@@ -1,0 +1,86 @@
+body{
+    color: white;
+    background-image: linear-gradient(to right, black , black);
+    }
+    
+  * {
+    box-sizing: border-box;
+  }
+   header {
+   
+    background-color: #666;
+    padding: 1px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-image: linear-gradient(to right, yellow , red);
+  }
+    
+  /* Create two equal columns that floats next to each other */
+  .column {
+    text-align:center;
+    float: center;
+    width: 100%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    color:black;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: white;
+    font-size: 18px;
+    transition: 0.2s;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    color: white;
+    background-color:yellow;
+    background-image: linear-gradient(to right, blue , white);
+  
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
